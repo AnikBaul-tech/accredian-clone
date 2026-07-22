@@ -3,15 +3,6 @@
 :root {
   --background: #ffffff;
   --foreground: #111827;
-  --primary: #2563eb;
-  --secondary: #60a5fa;
-  --border: #e5e7eb;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -21,19 +12,4 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  max-width: 100%;
-  display: block;
 }
