@@ -4,7 +4,7 @@ import Stats from "@/features/Stats";
 import Clients from "@/features/Clients"
 import Edge from "@/features/Edge";
 import CAT from "@/features/CAT";
-
+import FAQ from "@/features/FAQ";
 export default function Home() {
   return (
     <>
@@ -14,6 +14,7 @@ export default function Home() {
       <Clients />
       <Edge />
       <CAT />
+      <FAQ />
     </>
   );
 }
