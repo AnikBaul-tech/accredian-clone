@@ -11,6 +11,10 @@ import {
   Briefcase,
   MonitorCheck,
 } from "lucide-react";
+import industry from "../../../public/images/edge-courses/industry.png";
+import level from "../../../public/images/edge-courses/level.png";
+import program from "../../../public/images/edge-courses/program.png";
+import topic from "../../../public/images/edge-courses/topic.png";
 
 import { Audience, Course, Domain, USP } from "./types";
 
@@ -103,25 +107,25 @@ export const courseData: Course[] = [
     id: 1,
     title: "Program Specific",
     description: "Certificate, Executive & PG Programs",
-    image: "/courses/program.jpg",
+    image: program,
   },
   {
     id: 2,
     title: "Industry Specific",
     description: "Healthcare, Finance, Retail & Manufacturing",
-    image: "/courses/industry.jpg",
+    image: industry,
   },
   {
     id: 3,
     title: "Topic Specific",
     description: "AI, ML, Cybersecurity & Cloud",
-    image: "/courses/topic.jpg",
+    image: topic,
   },
   {
     id: 4,
     title: "Level Specific",
     description: "Freshers, Mid-level & Senior Leaders",
-    image: "/courses/level.jpg",
+    image: level,
   },
 ];
 

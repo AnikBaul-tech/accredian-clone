@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-import Button from "@/components/common/Button";
+import EnquireButton from "@/features/enquiry/EnquireButton";
 import Container from "@/components/common/Container";
 import Logo from "./Logo";
 import { navLinks } from "@/constants/navLinks";
@@ -37,7 +37,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:block">
-            <Button>Enquire Now</Button>
+            <EnquireButton />
           </div>
 
           {/* Mobile */}

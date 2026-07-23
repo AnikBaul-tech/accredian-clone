@@ -25,15 +25,7 @@ export const navLinks: NavItem[] = [
     href: "#cat",
   },
   {
-    label: "How It Works",
-    href: "#workflow",
-  },
-  {
     label: "FAQs",
     href: "#faq",
-  },
-  {
-    label: "Testimonials",
-    href: "#testimonials",
   },
 ];

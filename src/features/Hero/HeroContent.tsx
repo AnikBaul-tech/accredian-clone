@@ -3,6 +3,7 @@ import Button from "@/components/common/Button";
 
 import FeatureList from "./FeatureList";
 import { heroContent } from "./data";
+import { EnquireButton } from "../enquiry";
 
 export default function HeroContent() {
   return (
@@ -23,7 +24,7 @@ export default function HeroContent() {
       <FeatureList />
 
       <div className="mt-10 flex flex-wrap gap-4">
-        <Button>{heroContent.primaryButton}</Button>
+        <EnquireButton />
 
         <Button variant="outline">{heroContent.secondaryButton}</Button>
       </div>

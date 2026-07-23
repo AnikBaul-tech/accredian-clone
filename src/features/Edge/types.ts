@@ -1,4 +1,5 @@
 import { LucideIcon } from "lucide-react";
+import { StaticImageData } from "next/image";
 
 export interface USP {
   id: number;
@@ -18,7 +19,7 @@ export interface Course {
   id: number;
   title: string;
   description: string;
-  image: string;
+  image: StaticImageData;
 }
 
 export interface Audience {
