@@ -6,6 +6,7 @@ import Container from "@/components/common/Container";
 import Section from "@/components/common/Section";
 import SectionHeading from "@/components/common/SectionHeading";
 import Button from "@/components/common/Button";
+import { EnquireButton } from "../enquiry";
 
 import { faqData } from "./data";
 
@@ -51,7 +52,7 @@ export default function FAQ() {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <Button>Enquire Now</Button>
+          <EnquireButton />
         </div>
       </Container>
     </Section>

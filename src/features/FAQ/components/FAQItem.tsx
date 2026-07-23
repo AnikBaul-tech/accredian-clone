@@ -25,7 +25,7 @@ export default function FAQItem({ question, answer, open, onClick }: Props) {
       >
         <h3 className="text-xl font-semibold">{question}</h3>
 
-        <ChevronDown className={`transition ${open ? "rotate-180" : ""}`} />
+        <ChevronDown className={`transition cursor-pointer ${open ? "rotate-180" : ""}`} />
       </button>
 
       {open && <p className="pb-6 text-slate-500 leading-7">{answer}</p>}
