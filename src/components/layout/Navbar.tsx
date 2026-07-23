@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-
+import Button from "../common/Button";
 import EnquireButton from "@/features/enquiry/EnquireButton";
 import Container from "@/components/common/Container";
 import Logo from "./Logo";
