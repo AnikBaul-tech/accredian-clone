@@ -3,6 +3,7 @@ import Hero from "@/features/Hero";
 import Stats from "@/features/Stats";
 import Clients from "@/features/Clients"
 import Edge from "@/features/Edge";
+import CAT from "@/features/CAT";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Stats />
       <Clients />
       <Edge />
+      <CAT />
     </>
   );
 }
